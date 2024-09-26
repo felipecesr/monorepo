@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish"
+    "release": "lerna publish --yes"
   },
   "devDependencies": {
     "lerna": "^8.1.8"
