@@ -23,6 +23,7 @@ jobs:
           registry-url: https://registry.npmjs.org
           scope: '@felipecesr'
           cache: 'yarn'
+        secrets: inherit
       - run: yarn --frozen-lockfile
       - run: yarn release
         env:
