@@ -20,7 +20,7 @@ jobs:
         with:
           always-auth: true
           node-version: '20.x'
-          registry-url: https://registry.npmjs.org
+          registry-url: registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}
           scope: '@felipecesr'
           cache: 'yarn'
       - run: yarn --frozen-lockfile
