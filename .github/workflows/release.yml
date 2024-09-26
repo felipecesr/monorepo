@@ -20,7 +20,7 @@ jobs:
           registry-url: https://registry.npmjs.org
           scope: '@felipecesr'
           cache: 'yarn'
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: yarn --frozen-lockfile
       - run: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
