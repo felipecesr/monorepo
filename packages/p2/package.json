@@ -1,0 +1,10 @@
+{
+  "name": "@felipecesr/p2",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"testing p2\"",
+    "lint": "echo \"linting p2\""
+  }
+}

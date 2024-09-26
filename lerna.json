@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "npmClient": "yarn",
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "amend": true,
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  }
+}

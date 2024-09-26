@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "repository": "https://gitlab.com/felipecesr1/monorepo.git",
+  "author": "Felipe Cesar <felipecesr@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.8"
+  }
+}
