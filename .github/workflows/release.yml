@@ -15,11 +15,6 @@ jobs:
       - run: git config user.name github-actions[bot]
       - run: git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Setup npm auth
-        run: |
-          echo "registry=https://registry.npmjs.org" >> ~/.npmrc
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
-
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
@@ -29,6 +24,8 @@ jobs:
           scope: '@felipecesr'
           cache: 'yarn'
       - run: yarn --frozen-lockfile
+      - run: echo "registry=https://registry.npmjs.org" >> ~/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
       - run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
