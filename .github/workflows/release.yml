@@ -23,8 +23,8 @@ jobs:
           registry-url: https://registry.npmjs.org
           scope: '@felipecesr'
           cache: 'yarn'
+      - run: cat .npmrc
       - run: yarn --frozen-lockfile
       - run: yarn release
-      - run: cat .npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
