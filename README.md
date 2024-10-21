@@ -9,5 +9,5 @@ JS Monorepo
 Install dependencies with yarn by running
 
 ```sh
-yarn
+yarn install
 ```
