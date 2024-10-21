@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/felipecesr/monorepo/compare/@felipecesr/p1@1.0.8...@felipecesr/p1@1.0.9) (2024-10-21)
+
+
+### Bug Fixes
+
+* **p1:** format file ([b69b082](https://github.com/felipecesr/monorepo/commit/b69b082236f84cd7f93b3d8a0cc79e9edfdd5343))
+
+
+
+
+
 ## 1.0.8 (2024-10-21)
 
 **Note:** Version bump only for package @felipecesr/p1
