@@ -9,9 +9,14 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish --yes"
+    "release": "lerna publish --yes",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/config-lerna-scopes": "^19.5.0",
+    "husky": "^9.1.6",
     "lerna": "^8.1.8"
   }
 }
