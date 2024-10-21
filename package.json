@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish --yes",
+    "release": "lerna publish --include-merged-tags --yes",
     "prepare": "husky"
   },
   "devDependencies": {
