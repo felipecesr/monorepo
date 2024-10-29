@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/felipecesr/monorepo/compare/@felipecesr/p1@1.0.9...@felipecesr/p1@1.0.10) (2024-10-29)
+
+
+### Bug Fixes
+
+* change function type ([01f0826](https://github.com/felipecesr/monorepo/commit/01f08268f4fcdaf19a513e5bf15919e5bba0ab9e))
+
+
+
+
+
 ## [1.0.9](https://github.com/felipecesr/monorepo/compare/@felipecesr/p1@1.0.8...@felipecesr/p1@1.0.9) (2024-10-21)
 
 
